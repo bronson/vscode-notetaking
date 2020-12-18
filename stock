@@ -1,0 +1,23 @@
+#!/bin/sh
+
+profile="$(basename "$0")"
+mypath="$(dirname "$0")"
+basedir="$mypath/profiles/$profile"
+
+if [ "$1" == '--reset' ]; then
+    # rm -rf in a shellscript makes me squeamish
+    echo "to reset the $profile profile, run:"
+    echo rm -rf "$basedir"
+    exit
+fi
+
+mkdir -p "$basedir/user-data" "$basedir/extensions"
+
+# sync extensions
+
+cmd="code
+  --user-data-dir=$basedir/user-data
+  --extensions-dir=$basedir/extensions"
+
+echo $cmd
+$cmd
