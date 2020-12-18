@@ -2,6 +2,10 @@
 
 Visual Studio Code has the components to make an outstanding note taking tool, but they're not integrated very well. This project aims to find a coherent whole.
 
+## **TOO NEW**
+
+This is just an experiment. Nothing is here yet. Nothing works.
+
 ## Launch a Profile
 
 Might as well try it out. Choose which profile you'd like (probably _Complete_ or _VimComplete_, more below) and launch it. For example:
