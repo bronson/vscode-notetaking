@@ -1,18 +1,39 @@
 # VSCode Notetaking
 
-Visual Studio Code has the components to make an outstanding note taking tool, but they're not integrated very well. This project aims to find a coherent whole.
+Visual Studio Code has the components to make an outstanding note taking tool,
+but they're not integrated and often conflict with each other.
+This project aims to find a coherent whole.
+
+## **OBSOLETE**
+
+I started this project to try to integrate VS Code and a bunch of
+Markdown plugins into a decent note-taking system.
+
+Now that [Dendron](https://github.com/dendronhq/dendron)
+and [Foam](https://github.com/foambubble/foam) are carrying
+this torch, there's no need for another one!
+
+Now I just need to decide whether I want to use Foam or Dendron...?
 
 ## **TOO NEW**
 
-This is just an experiment. Nothing is here yet. Nothing works.
+This is just an experiment. Nothing is here yet.
 
 ## Launch a Profile
 
-Might as well try it out. Choose which profile you'd like (probably _Complete_ or _VimComplete_, more below) and launch it. For example:
+A profile is a name for a coherent collection of settings and plugins.
+
+Choose which profile you'd like
+(probably _Complete_ or _VimComplete_, more below)
+and launch it. For example:
 
 `./complete tmp`
 
-TODO: walkthrough
+Now VS Code launches, plugins are installed, settings established,
+and now you can use a complete note-taking system.
+
+Profiles can be based on other profiles so you can make slight tweaks to
+an existing profile that already works the way you want.
 
 ## Profiles
 
@@ -62,4 +83,6 @@ _(none)_
 
 ## License
 
-The project respects the license of every component it uses. Where there's ambiguity, for example the files in this specific repository, it uses the MIT license.
+The project respects the license of every component it uses. Where there's
+ambiguity (for example, the files in this specific repository) it is covered
+by the MIT license.
